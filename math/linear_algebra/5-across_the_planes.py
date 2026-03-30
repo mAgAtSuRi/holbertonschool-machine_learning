@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
+"""add 2d matrices"""
 
 
 def add_matrices2D(mat1, mat2):
+    """return the sum of 2d matrices"""
     if len(mat1) != len(mat2) or len(mat1[0]) != len(mat2[0]):
         return None
     new_mat = []
