@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 
-import numpy as np
-
 
 def matrix_shape(matrix):
-    arr = np.array(matrix)
-    return arr.shape
+    shape = []
+    current = matrix
+    while isinstance(current, list):
+        shape += len(current)
+        current = current[0]
+    return shape
