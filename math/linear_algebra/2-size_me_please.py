@@ -2,6 +2,7 @@
 
 
 def matrix_shape(matrix):
+    """Return the shape of a matrix"""
     shape = []
     current = matrix
     while isinstance(current, list):
