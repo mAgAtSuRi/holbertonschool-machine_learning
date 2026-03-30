@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-
+"""Transpose matrix"""
 
 def matrix_transpose(matrix):
+    """function to transpose a matrix"""
     transposed = []
     for j in range(len(matrix[0])):
         row = []
