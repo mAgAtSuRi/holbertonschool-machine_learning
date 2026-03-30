@@ -5,6 +5,6 @@ def matrix_shape(matrix):
     shape = []
     current = matrix
     while isinstance(current, list):
-        shape += len(current)
+        shape.append(len(current))
         current = current[0]
     return shape
