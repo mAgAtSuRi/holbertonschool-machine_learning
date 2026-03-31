@@ -3,5 +3,4 @@
 
 
 def np_shape(matrix):
-    array = np.array(matrix)
-    return array.shape
+    return matrix.shape
