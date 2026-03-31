@@ -4,4 +4,5 @@ import numpy as np
 
 
 def np_matmul(mat1, mat2):
+    """Return the multiplication of 2 matrices"""
     return np.dot(mat1, mat2)
