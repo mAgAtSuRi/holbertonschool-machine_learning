@@ -57,7 +57,7 @@ def all_in_one():
     plt.title("Exponential Decay of Radioactive Elements")
     plt.legend()
 
-    plt.subplot2grid((3, 1), (2, 0), colspan=2)
+    plt.subplot2grid((3, 2), (2, 0), colspan=2)
     plt.hist(student_grades, bins=range(0, 110, 10), edgecolor="black")
     plt.xlim(0, 100)
     plt.ylim(0, 30)
