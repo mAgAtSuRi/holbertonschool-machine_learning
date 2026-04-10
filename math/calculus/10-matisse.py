@@ -3,6 +3,7 @@
 
 
 def poly_derivative(poly):
+    """derive a poly"""
     if not isinstance(poly, list) or len(poly) == 0:
         return None
     if len(poly) == 1:
