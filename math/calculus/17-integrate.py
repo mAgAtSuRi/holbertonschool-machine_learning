@@ -13,4 +13,6 @@ def poly_integral(poly, C=0):
     for i in range(1, len(poly) + 1):
         coef = poly[i - 1] / i
         new_list.append(int(coef) if coef == int(coef) else coef)
+    while len(new_list) > 1 and new_list[-1] == 0:
+        new_list.pop()
     return new_list
